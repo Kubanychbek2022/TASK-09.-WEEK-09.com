@@ -37,6 +37,25 @@ body {
   animation-iteration-count: infinite;
 }
 
+
+.header__link {
+  color: black;
+  transition: all 2ms;
+}
+
+.header__link:hover {
+  color: red;
+  text-decoration: underline;
+  animation-name: hover;
+  animation-duration: 2s;
+}
+
+@keyframes hover {
+  50% {
+    color: black;
+  }
+}
+
 @keyframes logo-move {
   33.3% {
     color: red;
@@ -127,4 +146,159 @@ display: flex;
   .show {
     display: flex;
     }
+}
+
+@media  screen and (max-width: 881px) {
+  .container {
+    max-width: 881px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(360px);
+  }
+  
+  
+}
+
+@media screen and (max-width: 825px) {
+  .container {
+    max-width: 825px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+}
+
+@media screen and (max-width: 785px) {
+  .container {
+    max-width: 785px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 755px) {
+  .container {
+    max-width: 755px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(325px);
+  }
+  
+}
+
+@media screen and (max-width: 745px) {
+  .container {
+    max-width: 745px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 739px) {
+  .container {
+    max-width: 739px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(320px);
+  }
+  
+}
+
+@media screen and (max-width: 695px) {
+  .container {
+    max-width: 695px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(300px);
+  }
+  
+}
+
+
+@media screen and (max-width: 639px) {
+  .container {
+    max-width: 639px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(260px);
+  }
+  
+}
+
+
+@media screen and (max-width: 571px) {
+  .container {
+    max-width: 571px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(240px);
+  }
+  
+}
+
+
+@media screen and (max-width: 543px) {
+  .container {
+    max-width: 510px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(200px);
+  }
+  
+}
+
+
+@media screen and (max-width: 463px) {
+  .container {
+    max-width: 463px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(168px);
+  }
+  
+}
+
+
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(150px);
+  }
+  
 }
