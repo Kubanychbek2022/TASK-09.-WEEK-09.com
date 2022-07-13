@@ -298,7 +298,48 @@ display: flex;
   }
 
   .header__item {
-    transform: translateX(150px);
+    transform: translateX(140px);
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(120px);
+  }
+  
+}
+
+
+@media screen and (max-width: 338px) {
+  .container {
+    max-width: 639px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(100px);
+  }
+  
+}
+
+
+@media screen and (max-width: 280px) {
+  .container {
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .header__item {
+    transform: translateX(60px);
   }
   
 }
