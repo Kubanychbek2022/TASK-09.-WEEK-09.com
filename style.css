@@ -119,6 +119,15 @@ display: flex;
     padding: 35px 0;
     flex-direction: column;
     background-color: black;
+    animation-name: menu-move;
+    animation-duration: 2.50s;
+  }
+
+
+  @keyframes menu-move {
+    50% {
+      top: 500%;
+    }
   }
 
   .header__item {
